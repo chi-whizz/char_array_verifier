@@ -12,10 +12,7 @@ int main(void) {
 
 	strcat(answer, " Musk");
 	
-	if (strcmp(twit, answer) == 0) {
-		printf("You are correct!\nIts %s\n", answer);
-	} else {
-		printf("You are wrong!\n");
-	}
+	(strcmp(twit, answer) == 0) ? printf("You are correct!\nIts %s\n", answer) : printf("You are wrong!\n");
+
 	return 0;
 }
